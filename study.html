@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/journal/bootstrap.min.css" >
+
+    <title>Exam Study Guide</title>
+	
+  </head>
+  <body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm">
+
+			<h1 class="page-title">Midterm Exam Study Guide</h1>
+							
+			<h2>IS 360 - Exam 1 Study Guide</h2>
+			<p>Note that I might add practice questions or a few small items over the next day or two as I finish writing the exam. Also make sure that you have purchased print credits from the COBA office. You will need to print the coding part of the examination.</p>
+			<h2>Exam Location</h2>
+			<p>You will take the exam in AB208. You will have 1.5 hours to complete the exam. The exam will be Wednesday 10/23/2019</p>
+			<h2>Exam Format</h2>
+			<p>The exam will consist of two parts.</p>
+			<ul>
+			<li class="ListItem">The first part of the exam will be a traditional written exam. It will contain true/false, multiple choice, and possibly short answer questions. You will need a Scantron, which I will bring.</li>
+			<li class="ListItem">For the second part of the exam, you will use the computer to write HTML5 and cascading style sheets. For this part of the exam, you may use any Internet resources that you see fit. You will turn in to me the code that you create.</li>
+			<li>You will be given both parts of the exam at the same time. You can work on both parts concurrently.</li>
+			</ul>
+			<h2>Exam Topics</h2>
+			
+			<ul>
+			<li class="ListItem">Be able to work with ordered and unordered lists. Make sure that you are able to create nested lists.
+				<ul><li><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_intro" target="_blank">W3 schools List page</a></li></ul></li>
+			
+			<li class="ListItem">You should understand the conceptual material from the first lecture. Understand the concept of a page post and a <a href="https://unr.canvaslms.com/courses/46584/files/folder/Topic1Introduction?preview=3598113" target="_blank">page round trip.</a> Be able to discuss the concepts of client-side and server-side processing.
+			<ul><li><pre>Client                             Server 
+(Request) ----------------------> (Receive)
+                                       | 
+Client          Server             Server    
+(Render) <----- (Send HTML) <----- (Process)</pre></li>
+<li><pre>
+
+       +---------------+                     +--------------------+
+       |     Client    |                     |  Web server        |
+       | (Request Page)|+-------------------&gt;|  (Discover browser)|
+       +---------------+                     +--------------------+
+         +----------------+                  +--------------------+
+         |   Client       |                  |  Web Server        |
+         |(Execute script |&lt;----------------+|  (Render browser   |
+         | and render)    |                  |   specific page)   |
+         +----------------+                  +--------------------+
+         +----------------------+
+         | Client               |
+   +     | (Submit transactional|+
+   |     |  Request)            ||
+   |     +----------------------+|             +--------------------------+
+   |     +---------------------+ +------------&gt;|                          |
+   |     | Client              |               |   Web server             |
+   +----&gt;|(Submit transactional|+------------&gt; |   (Request database data |
+         |     request)        | +-----------&gt; |    Web service request)  |
+         +---------------------+ |     +-------+    (PHP,ASP.NET, JSP     |
+                   +-------------+-----+       |-^------------+-&gt;-------+-+
+                   | External web      |My Blog+-|-&gt;          |         |
+                   |   Service         |-------+ | +----------+---+&lt;----+
+                   |  (Respond to SOAP)|      +-++ |Google Earth  |
+                 +-+-------------------+      |    +------------------------+
+                 | Facebook API |             |    |Database server         |
+                 |  (FBML)      |      +------+    |(Send DataSet, XML,...) |
+                 +--------------+                  +------------------------+</pre></li></ul></li>
+			
+			<li class="ListItem">Understand the <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure" target="blank">structure</a> of an HTML5 document. Know what the <a href="https://www.w3schools.com/tags/tag_doctype.asp" target="_blank">DTD</a> does.</li>
+			<li class="ListItem">Be able to discuss the <a href="https://www.w3.org/TR/html-design-principles/" target="blank">goals of HTML5</a>. Pave the cow paths. Don't break things, and so on.</li>
+			<li class="ListItem">Understand the concept of a document's nested (hierarchical) <a href="https://unr.canvaslms.com/courses/46584/files/folder/Topic2HTMLBasics?preview=3468980" target="_blank">structure</a>. Understand how elements must be <a href="https://www.w3schools.com/xml/xml_syntax.asp" target="_blank">"properly"</a> nested.</li>
+			<li class="ListItem">You should be able to look at an HTML5 document and identify syntax errors and be able to <a href="https://validator.w3.org/" target="_blank">correct</a> them.</li>
+			<li class="ListItem">Understand the concept of <a href="https://unr.canvaslms.com/courses/46584/files/folder/Topic2HTMLBasics?preview=3468980" target="_blank">elements and attributes.</a> Know the rules for attributes (cannot have duplicate attribute names in an element, for example).</li>
+			<li class="ListItem">Be able to work with the elements that we have discussed in class. <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">anchor</a>, <a href="https://www.w3schools.com/tags/tag_div.asp" target="_blank">div</a>, <a href="https://www.w3schools.com/tags/tag_span.asp" target="_blank">span</a>, <a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank">img</a>, and <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">table</a>.</li>
+			<li class="ListItem">Understand the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements" target="_blank">difference between block and inline tags.</a></li>
+			<li class="ListItem">Be able to discuss the purpose of the new <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">"Semantic Tags"</a>, and how search engines might use these semantic tags. Understand the role of semantic tags in syndication and aggregation. We have talked about tags like article, section, nav, header, footer, etc..</li>
+			<li class="ListItem">Be able to work with <a href="https://unr.canvaslms.com/courses/46584/files/folder/Topic3HTMLDetails?preview=3468996" target="_blank">tables</a> and <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">understand</a> the structure of a table. Understand how a table is organized. (Tables have rows, which in turn has columns). Understand how to create <a href="https://www.w3.org/WAI/tutorials/tables/irregular/" target="_blank">jagged</a> tables (tables where a cell spans multiple columns).</li>
+			<li class="ListItem">Understand the concept of <a href="http://code.iamkate.com/html-and-css/white-space-handling/" target="_blank">white space handling</a> and white space normalization.</li>
+			<li class="ListItem">Understand the concept of a <a href="https://tools.ietf.org/html/rfc8089" target="_blank">URL</a> and how it relates to the file system on the remote Web server.</li>
+			<li class="ListItem">Be able to work with <a href="https://unr.canvaslms.com/courses/46584/files/folder/Topic4CSSIntroduction?preview=3694083" target="blank"> cascading style sheets. </a> Be able to work with the various types of <a href="https://unr.canvaslms.com/courses/46584/files/folder/Topic4CSSIntroduction?preview=3694087" target="blank">selectors</a>. Know how to create and use <a href="https://unr.canvaslms.com/courses/46584/files/folder/Topic4CSSIntroduction?preview=3694084" target="blank">CSS classes and ID's</a>. It goes without saying that you need to understand the role and rules of the ID attribute. Know how to embedded, internal, and external style sheets. <a href="https://specificity.keegan.st/" target="blank">Know the order</a> in which rules are applied when one style overrides another.</li>
+			<li class="ListItem">Understand the concept of the <a href="https://unr.canvaslms.com/courses/46584/files/folder/Topic6CSSBoxes?preview=3469021" target="blank">CSS box model.</a></li>
+			<li class="ListItem">Understand the different ways to create a CSS syle using <a href="https://www.w3.org/TR/html401/present/styles.html" target="blank">inline styles, embedded (internal) style sheets, and external style sheets.</a></li>
+			<li class="ListItem">Make sure that you understand the idea of <a href="https://webplatform.github.io/docs/tutorials/inheritance_and_cascade/" target="blank">inheritance and how properties (attributes) cascade.</a></li>
+			<li class="ListItem">Know the idea behind the various grids <a href="https://unr.canvaslms.com/courses/46584/files/folder/Topic8CSSGridAndBestPractices?preview=3468985" target="blank">(grid 960)</a>. Know the idea behind <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/" target="blank"> Bootstrap.</a>&nbsp;</li>
+			<li class="ListItem">Be able to create <a href="https://internetingishard.com/html-and-css/css-selectors/" target="blank">CSS selectors.</a></li>
+			<li class="ListItem">Understand the purpose of Bootstrap and how to use it.&nbsp; Don't try to remember all of the <a href="https://hackerthemes.com/bootstrap-cheatsheet/" target="blank"> Bootstrap classes.</a></li>
+			</ul>
+			<h2>Practice Questions</h2>
+			<ul>
+			<li class="ListItem">HTML5 is living language. That is, the W3C standard is undergoing evolution. (true)<br><br>
+			</li>
+			<li class="ListItem">Semantic tags were introduced with some of the first versions of HTML. (false - Most of them appeared in HTML 5.)<br><br>
+			</li>
+			<li class="ListItem">The following is a valid HTML5 document:
+			<pre>           &lt;!DOCTYPE html&gt;
+					   &lt;html&gt;
+						&lt;head&gt;
+						&lt;title&gt;foo&lt;/title&gt;
+							&lt;/head&gt;
+						&lt;body&gt;
+							&lt;/body&gt;
+					   &lt;/html&gt;         
+							</pre>
+			It is a valid document.<br><br>
+			</li>
+			<li class="ListItem">What is wrong with the following HTML5:
+			<pre>                    &lt;p class="Test" class="Test2"&gt;This is a line of text.&lt;/p&gt;
+							</pre>
+			Two attributes cannot have the same name.<br><br>
+			</li>
+			<li class="ListItem">Which of the following correctly declares a CSS class named test?
+			<ul>
+			<li class="ListItem">#test{}</li>
+			<li class="ListItem">.cssclass test{}</li>
+			<li class="ListItem">.class test{}</li>
+			<li class="ListItem">.class="test"{}</li>
+			<li class="ListItem">
+			<strong>.test</strong>{}<br><br>
+			</li>
+			</ul>
+			</li>
+			<li class="ListItem">Create a table with three rows and two columns.</li>
+			</ul>
+  
+		</div> <!-- End of column div -->
+	</div> <!-- End of Row div -->
+</div> <!-- End of Container div --> 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
